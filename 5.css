@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #eee;
+}
+
+nav,footer{
+	background-color: black;
+	clear: both;
+	color: white;
+	height: 30px;
+}
+
+nav{
+	margin-bottom: 10px;
+}
+
+nav img{
+	height: 100%;
+}
+
+#list1{
+	float: right;
+}
+
+ul li{
+	list-style: none;
+}
+
+#list1 li{
+	float: left;
+	width: 100px;
+	text-align:center; 
+}
+
+li a,td a,footer p{
+	text-decoration: none;
+	line-height: 30px;
+}
+
+li a{
+	color: white;
+}
+
+section,aside,ol{
+	background-color: white;
+	margin: 10px;
+	padding: 10px;
+	border-bottom: 3px solid #ddd;
+	border-right: 3px solid #ddd;
+}
+
+section{
+	margin-left: 20px;
+}
+
+aside{
+	margin-right: 20px;
+}
+
+ol{
+	border: none;
+}
+
+h3{
+ 	color: #aaa;
+ }
+
+p{
+ 	text-indent: 2em;
+ }
+
+.author{
+ 	color: #ccc;
+ }
+
+section img{
+	width: 30%;
+}
+
+#img img{
+ 	border: 1px solid #ddd;
+ 	width: 9%;
+ }
+
+#img p,footer p{
+	text-indent: 0;
+	text-align: center;
+}
+
+table{
+	width: 100%;
+}
+
+table,th,td{
+ 	border: 1px solid black;
+ }
+
+thead{
+ 	background-color: #222;
+ 	color: white;
+ }
+
+tfoot{
+ 	background-color: #aaa;
+ 	font-weight: bold;
+ }
+
+caption{
+ 	text-align:left;
+ }
+
+aside h2{
+	border-left: 3px solid #ddd;
+}
+
+label{
+	width:8em;
+	text-align: right;
+	float: left;
+}
+
+input,select,textarea{
+	margin-left:1em;	
+}
+
+input[type="text"]{
+	width: 16em;
+}
+
+input[type="submit"]{
+	background-color: blue;
+	color: white;
+	width: 100%;
+	margin-left: auto;
+	line-height: 200%;
+	border: 1px solid blue;
+	border-radius: 2%/30%;
+}
+
+section{
+	float: left;
+	width: 65%;
+}
+
+aside{
+	float: right;
+	width: 366px;
+}
+
+
+
+
+
+
+
+
+
